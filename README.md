@@ -1,5 +1,7 @@
 # Basic shell script to update SmartDNSProxy local IP for MacOS
 
+The idea is to run automatic IP updates to SmartDNSProxy via API from a Mac laptop connected via WiFi only when the laptop is at home. The way we check if laptop is at home is by checking and validating the name of the WiFi SSID. If the Laptop is connected outside of home, the IP change will not happen, but if it is at home, the IP change will be called via the command. The command would run every 15 minutes or so.
+
 ## STEPS:
 
 1. Download the script, save it somewhere accessible and safe.
