@@ -13,7 +13,7 @@ then
     echo "We are Home, changing IP"
 
     // run commands
-    curl https://www.smartdnsproxy.com/api/IP/update/CHANGETHIS
+    curl https://www.smartdnsproxy.com/api/IP/update/CHANGETHIS #change this to your API endpoint
 
 else
     echo "We are not Home, not changing IP"
